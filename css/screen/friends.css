@@ -1,0 +1,124 @@
+.friends-header__first-row {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.friends-header__column > h1 {
+  font-size: 28px;
+  font-weight: 700;
+  padding: 0px 20px 0px 20px;
+}
+
+.friends-header__column-second {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+}
+.friends-header__column-second .fa-search,
+.friends-header__column-second .fab {
+  padding: 0px 15px 0px 15px;
+}
+
+.friends-header__column-second .fa-cog {
+  padding-left: 15px;
+}
+
+.friends-header__second-row {
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+
+  font-size: 17px;
+  font-weight: 600;
+  width: 100%;
+  padding: 12px;
+}
+
+.friends-header__second-row .fa-info-circle,
+.friends-header__second-row .fa-chevron-right {
+  padding: 0px 6px 0px 6px;
+  color: rgba(0, 0, 0, 0.15);
+}
+
+.channel {
+  display: flex;
+  flex-direction: column;
+}
+
+.channel__column-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 600;
+}
+
+.channel__column-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--setting);
+  padding: 0px 10px 30px 10px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.channel-pic {
+  width: 50px;
+  height: 50px;
+  background-color: brown;
+  border-radius: 20px;
+}
+
+.name__channel,
+.name__friend {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.channel__column-third > span {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 600;
+}
+
+.friend__column-first {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px 20px 10px;
+  color: rgba(0, 0, 0, 0.45);
+  font-weight: 600;
+}
+
+.friend-pic {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.friend__column-second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.friend__column-third {
+  border: 2px brown solid;
+  border-radius: 15px;
+  padding: 6px 10px;
+  text-align: center;
+}
+.music > i {
+  padding-left: 3px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: brown;
+}

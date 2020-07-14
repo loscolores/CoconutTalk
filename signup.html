@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Sign up | Welcome to CoconutTalk🥥</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column status-bar__column-first">
+        <span>No Service</span>
+        <i class="fas fa-wifi fa-sm"></i>
+      </div>
+
+      <div class="status-bar__column status-bar__column-second">
+        <span class="status-bar__column-time">20:20</span>
+      </div>
+
+      <div class="status-bar__column status-bar__column-third">
+        <i class="fas fa-lock fa-sm"></i>
+        <span class="battery__amount">100%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="signup__content-header">
+      <div class="signup__content-header-welcome">
+        Welcome to CoconutTalk
+      </div>
+      <div class="signup__content-header-info">
+        If you have a Coconut Account, <br />log in with your email or phone
+        number.
+      </div>
+    </header>
+
+    <main class="signup__content-userinfo">
+      <form action="friends.html" method="get">
+        <input
+          type="text"
+          name="username"
+          class="signup__content-userinfo-email"
+          placeholder="Email or phone number"
+        />
+        <input
+          type="password"
+          name="password"
+          class="signup__content-userinfo-email"
+          placeholder="Password"
+        />
+        <div class="boxes">
+          <a href="friends.html">
+            <input
+              type="submit"
+              class="signup__content-userinfo-login"
+              value="Log in"
+          /></a>
+          <input
+            type="button"
+            class="signup__content-userinfo-signup"
+            value="Sign Up"
+          />
+          <a href="#" class="signup_content-userinfo-find">
+            Find Coconut Account or Password</a
+          >
+        </div>
+      </form>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/fa635f730e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

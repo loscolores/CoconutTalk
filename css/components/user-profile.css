@@ -1,0 +1,21 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.friends-contents {
+  border-bottom: var(--setting);
+  padding: 20px 10px 20px 10px;
+}
+
+.user-profile-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 25px;
+}
+
+.name {
+  padding-left: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}

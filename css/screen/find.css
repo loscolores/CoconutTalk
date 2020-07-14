@@ -1,0 +1,14 @@
+.qrcode,
+.phonebook,
+.id,
+.invite {
+  font-size: 13px;
+}
+
+.find-contents__header__column {
+}
+
+.find-contents__content {
+  border-top: var(--setting);
+  border-bottom: var(--setting);
+}
