@@ -1,14 +1,127 @@
-.qrcode,
-.phonebook,
-.id,
-.invite {
-  font-size: 13px;
+.find-contents__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 20px;
+}
+.find-contents__header__column {
+  padding: 20px 15px 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.find-contents__header__column {
+.find-contents__header__column > div {
+  padding: 25px 0px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .find-contents__content {
   border-top: var(--setting);
   border-bottom: var(--setting);
+}
+
+.name_category__find {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  font-weight: 600;
+}
+
+.recommended__message {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding: 70px 0px 90px 0px;
+}
+
+.open-chat__header__column__title {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chat__header {
+  padding: 15px 15px 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-chat__header__column__nav {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(58, 30, 30, 0.3);
+}
+
+.open-chat__content {
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: var(--setting);
+}
+.open-chat-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open-chat-title {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.open-chat-hashtag {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.open-chat-owner {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.open-chat-member {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.open-chat-status {
+  color: #ff8dd3;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.open-chat-real-pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.number-like {
+  background-color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+
+  padding: 5px 7px;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 123px;
+  right: 3px;
+}
+
+.number-like > i {
+  margin-right: 5px;
 }

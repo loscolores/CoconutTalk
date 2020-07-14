@@ -101,7 +101,7 @@
 }
 
 .chats__info {
-  margin: 12px 25px 10px 25px;
+  margin: 12px 25px 50px 15px;
   position: relative;
 }
 
@@ -125,14 +125,14 @@
 
 .chat__pua {
   width: 100%;
-  padding: 0px 10px 30px 10px;
+  padding: 0px 10px 30px 0px;
 }
 
 .chat__wrap {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .set {

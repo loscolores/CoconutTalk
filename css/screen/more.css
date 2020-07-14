@@ -1,0 +1,113 @@
+.unverified {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.unverified > i {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: tomato;
+  color: white;
+}
+
+.message-preview__more {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+  font-size: 13.5px;
+  padding-left: 12px;
+}
+.set {
+  padding: 5px 20px 20px 20px;
+}
+
+.more__pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 22px;
+}
+
+.chat__wrap {
+  display: flex;
+  align-items: center;
+}
+
+.fa-comment-alt {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.more-contents-specific {
+  margin: 10px 30px 25px 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.more-contents__specific__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-contents__specific__column > div {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.suggestions__title {
+  margin: 20px 25px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.suggestions {
+  padding: 5px 20px 20px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.coconutstory {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.coconutstory > i {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: rosybrown;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.coconutfriends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+.coconutfriends > img {
+  width: 50px;
+  height: 50px;
+
+  background-color: #87ceeb;
+  border-radius: 7px;
+}
+.app__title {
+  margin-top: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+.coconutpic {
+  width: 45px;
+  height: 45px;
+}
