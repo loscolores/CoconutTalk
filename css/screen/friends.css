@@ -23,7 +23,7 @@
 }
 
 .friends-header__column-second .fa-cog {
-  padding-left: 15px;
+  margin-left: 15px;
 }
 
 .friends-header__second-row {
@@ -121,4 +121,49 @@
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: brown;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash__screen {
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("splash.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 105vh;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+.splash__screen > .coconut__icon {
+  width: 150px;
+  height: 150px;
+}
+
+.welcome__coconut {
+  font-size: 40px;
+  margin-top: 30px;
+  font-weight: 900;
+  color: #48dbfb;
+  -webkit-text-stroke: 0.5px white;
 }

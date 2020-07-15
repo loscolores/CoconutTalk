@@ -1,0 +1,28 @@
+.screen__size {
+  position: absolute;
+  z-index: 99;
+  height: 105vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("splash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 800;
+  top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .screen__size {
+    display: none;
+  }
+}

@@ -9,13 +9,50 @@
   font-size: 20px;
   font-weight: 700;
   width: 33%;
+  justify-content: center;
   text-align: center;
 }
 
+.settings__column {
+  width: 146.25px;
+}
+
+.settings__column > .fa-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .list {
-  padding: 40px 20px 20px 20px;
+  padding: 10px 20px 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: var(--setting);
+}
+
+.icon_list,
+.title_list {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_list > div,
+.title_list > div {
+  font-size: 19px;
+  padding: 15px 10px;
 }
 
 .list__column {
   padding-bottom: 20px;
+}
+
+.weare__set {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.weare__set .only {
+  color: rgba(0, 0, 0, 0.5);
 }

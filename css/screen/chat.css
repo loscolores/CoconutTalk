@@ -1,0 +1,135 @@
+.chat__header,
+.chat__whole {
+  background-color: #c7ecee;
+}
+
+.chat__column {
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.chat__column > .fa-search {
+  margin-right: 15px;
+}
+
+.chat__name {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px 0px;
+  display: inline-block;
+}
+
+.chat__bubble {
+  background-color: white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+}
+
+.my__bubble {
+  border-radius: 15px;
+  border-top-right-radius: 0;
+  margin-right: 10px;
+  background-color: papayawhip;
+}
+
+.chat__real__contents {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 5px;
+  animation: flyer 0.8s ease-in-out forwards;
+}
+
+@keyframes flyer {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes oppositeFlyer {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.second__chat {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row-reverse;
+  opacity: 0;
+  animation: oppositeFlyer 0.8s ease-in-out forwards;
+  animation-delay: 0.8s;
+}
+
+.chatting__line {
+  background-color: white;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+.chatting__input {
+  background-color: #f9f9fa;
+  border: var(--setting);
+  height: 35px;
+  width: 380px;
+  border-radius: 30px;
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+
+.chatting__line:focus-within > .plus {
+  opacity: 0;
+}
+
+.chatting__input:focus {
+  width: 90vw;
+  transform: translateX(-10px);
+}
+
+.chatting__input:focus + .chatting__emojis {
+  opacity: 0;
+}
+
+.plus {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 5px 7px;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 5px 10px 10px 10px;
+}
+
+.chatting__emojis {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  bottom: 7px;
+}
+
+.chatting__emojis > .fa-grin {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 15px;
+}
+
+.send {
+  background-color: papayawhip;
+  padding: 8px;
+  border-radius: 50%;
+}

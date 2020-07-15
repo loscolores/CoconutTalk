@@ -116,3 +116,7 @@ input::placeholder {
   color: black;
   margin-top: 20px;
 }
+
+.chat__status {
+  background-color: #dff9fb;
+}

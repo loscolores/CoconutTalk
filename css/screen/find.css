@@ -118,8 +118,26 @@
   color: white;
   border-radius: 10px;
   position: absolute;
-  bottom: 123px;
+  bottom: 150px;
   right: 3px;
+}
+
+.number-like:hover > i {
+  animation: palpitate 0.5s ease-in-out infinite;
+}
+
+@keyframes palpitate {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale3d(1.5, 1.5, 1.5);
+    color: pink;
+    will-change: contents;
+  }
+  100% {
+    transform: none;
+  }
 }
 
 .number-like > i {

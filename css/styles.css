@@ -11,6 +11,8 @@
 @import "screen/find.css";
 @import "screen/more.css";
 @import "screen/settings.css";
+@import "screen/chat.css";
+@import "screen/media.css";
 
 html,
 body {
