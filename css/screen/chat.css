@@ -31,7 +31,7 @@
 .my__bubble {
   border-radius: 15px;
   border-top-right-radius: 0;
-  margin-right: 25px;
+  margin-right: 30px;
   background-color: papayawhip;
 }
 
@@ -115,12 +115,16 @@
   margin: 5px 10px 10px 10px;
 }
 
+.chat__space {
+  position: relative;
+}
+
 .chatting__emojis {
   display: flex;
   align-items: center;
   position: absolute;
-  right: 30px;
-  bottom: 7px;
+  right: 22px;
+  bottom: 2px;
 }
 
 .chatting__emojis > .fa-grin {

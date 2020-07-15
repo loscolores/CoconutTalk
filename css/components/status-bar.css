@@ -1,7 +1,9 @@
 body {
   position: relative;
 }
+
 .status-bar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +13,6 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
-
   background-color: white;
 }
 
@@ -59,7 +60,7 @@ header {
   font-size: 25px;
   font-weight: 600;
   text-align: center;
-  margin: 100px 187px 40px 187px;
+  margin: 100px 150px 40px 150px;
 }
 
 .signup__content-header-info {
@@ -71,7 +72,6 @@ header {
 }
 
 form {
-  width: 90vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -80,7 +80,7 @@ form {
 
 .signup__content-userinfo-email,
 .signup__content-userinfo-password {
-  width: 85vw;
+  width: 400px;
   font-size: 20px;
   margin: 0px 14px;
   padding: 20px 10px;
@@ -108,7 +108,7 @@ input::placeholder {
 .signup__content-userinfo-signup {
   margin: 10px 14px;
   padding: 20px;
-  width: 85vw;
+  width: 400px;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.05);
 }
