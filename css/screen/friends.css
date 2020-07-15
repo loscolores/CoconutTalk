@@ -57,13 +57,16 @@
   font-weight: 600;
 }
 
+.channel__column-first > i {
+  margin-right: 5px;
+}
+
 .channel__column-second {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: var(--setting);
-  padding: 0px 10px 30px 10px;
-  margin: 0px 10px 0px 10px;
+  padding: 0px 10px 30px 20px;
 }
 
 .wrap {
@@ -89,6 +92,7 @@
   font-size: 20px;
   color: rgba(0, 0, 0, 0.45);
   font-weight: 600;
+  margin-right: 10px;
 }
 
 .friend__column-first {
@@ -100,6 +104,10 @@
   font-weight: 600;
 }
 
+.friend__column-first > i {
+  margin-right: 5px;
+}
+
 .friend-pic {
   width: 50px;
   height: 50px;
@@ -109,7 +117,7 @@
 
 .friend__column-second {
   display: flex;
-  margin: 0px 20px 0px 10px;
+  margin: 0px 20px 10px 10px;
   justify-content: space-between;
   align-items: center;
 }
