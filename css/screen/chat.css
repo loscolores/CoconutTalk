@@ -1,6 +1,14 @@
+.status-bar__chat,
 .chat__header,
 .chat__whole {
   background-color: #c7ecee;
+}
+
+.chat__header {
+  margin: 50px 25px 20px 25px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .chat__column {
