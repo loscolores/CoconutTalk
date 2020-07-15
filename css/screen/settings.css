@@ -1,5 +1,5 @@
 .settings {
-  margin: 50px 25px 20px 25px;
+  margin: 50px 20px 20px 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -8,7 +8,7 @@
 .settings__title {
   font-size: 20px;
   font-weight: 700;
-  width: 33vw;
+  width: 33%;
   justify-content: center;
   text-align: center;
 }
@@ -49,6 +49,7 @@
 
 .weare__set {
   width: 400px;
+
   display: flex;
   justify-content: space-between;
 }
