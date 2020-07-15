@@ -28,15 +28,23 @@
 .chat__wrap {
   display: flex;
   align-items: center;
+  margin: 0px 20px 0px -20px;
+}
+
+.moana__wrap {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  margin: 0px -20px 30px 5px;
 }
 
 .fa-comment-alt {
-  margin-right: 20px;
+  margin-right: 35px;
   margin-bottom: 10px;
 }
 
 .more-contents-specific {
-  margin: 10px 30px 25px 30px;
+  margin: 10px 25px 25px 25px;
   padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -49,6 +57,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.more-contents__specific__column:last-child {
+  margin-right: 10px;
 }
 
 .more-contents__specific__column > div {

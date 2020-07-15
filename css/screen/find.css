@@ -1,3 +1,9 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .find-contents__header {
   display: flex;
   justify-content: space-between;
@@ -20,18 +26,21 @@
 }
 
 .find-contents__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-top: var(--setting);
   border-bottom: var(--setting);
+  margin: 0px 18px;
 }
 
 .name_category__find {
   color: rgba(0, 0, 0, 0.4);
-  padding: 15px;
+  padding: 15px 5px;
   font-weight: 600;
 }
 
 .recommended__message {
-  width: 100%;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
   font-size: 18px;
@@ -46,7 +55,8 @@
 }
 
 .open-chat__header {
-  padding: 15px 15px 10px 15px;
+  padding: 15px 5px 10px 5px;
+  margin: 0px 15px 0px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,13 +68,16 @@
 }
 
 .open-chat__content {
-  padding-left: 15px;
+  margin: 0px 25px 0px 15px;
+  padding-left: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 10px;
+
   border-bottom: var(--setting);
 }
+
 .open-chat-info {
   display: flex;
   align-items: center;
@@ -110,6 +123,10 @@
   margin-top: 10px;
 }
 
+.open-chat-pic {
+  position: relative;
+}
+
 .number-like {
   background-color: rgba(0, 0, 0, 0.45);
   font-size: 12px;
@@ -118,8 +135,8 @@
   color: white;
   border-radius: 10px;
   position: absolute;
-  bottom: 150px;
-  right: 3px;
+  bottom: 8px;
+  right: 0px;
 }
 
 .number-like:hover > i {
